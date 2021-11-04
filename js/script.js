@@ -13,5 +13,7 @@ colorePreferito = prompt('Inserisci il tuo colore preferito');
 console.log('Il nome inserito è ' + nome);
 console.log('Il cognome inserito è ' + cognome);
 console.log('Il colore preferito inserito è ' + colorePreferito);
-console.log('La tua nuova password è ' + nome + cognome + colorePreferito + numero);
+console.log(
+    `La tua nuova password è ${nome}${cognome}${colorePreferito}${numero}`
+);
 
